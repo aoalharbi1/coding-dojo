@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    width: 830px;
+    height: 1050px;
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.header {
+    padding: 15px 15px 0px 15px;
+}
+.header, .footer {
+    height: 50px;
+    background-color: #F5F5F5;
+}
+.sub_container {
+    background-color: #6F5964;
+    padding: 15px 15px 15px 15px;
+    height: 850px;
+}
+.info_contents {
+    margin: 0px 0px 15px 0px;
+}
+.my_img {
+    width: 380px;
+    height: 220px;
+    border: 3px solid #C6C9C8;
+    display: inline-block;
+    margin: 0px 15px 0px 0px;
+}
+.about {
+    width: 400px;
+    height: 220px;
+    font-size: 15px;
+}
+.box {
+    background-color: #E5D6E5;
+    background-image: linear-gradient(to left, #E5D6E5, #ffffff);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.small {
+    width: 250px;
+    height: 550px;
+}
+.small:not(:first-child) {
+    margin: 0px 0px 0px 20px;
+}
+.small_header{
+    font-weight: 800;
+    font-size: 18px;
+    display: block;
+    height: 36px;
+    color: white;
+    padding: 7px 0px 0px 10px;
+    background-image: linear-gradient(to top, #A7A7AA, #8D8C98, #A7A7AA);
+}
+.medium_img{
+    height: 150px;
+    width: inherit;
+}
+.technologies {
+    font-size: 14px;
+    height: 28px;
+}
+.text {
+    padding: 8px;
+    height: 200px;
+    text-align: justify;
+    font-size: 14px;
+}
+.link {
+    color: #464341;
+    margin: 0px 0px 0px 10px;
+}
+.about_text {
+    margin: 10px 0px 13px 10px;
+}
+.small_img {
+    width: 30px;
+    height: 30px;
+    margin: 10px 0px 0px 12px;
+}
+.header_left{
+    font-size: 23px;
+    font-weight: 700;
+}
+.header_right {
+    margin: 0px 0px 0px 440px;
+    font-weight: 700;
+    vertical-align: 8%;
+}
+.footer {
+    text-align: center;
+    padding: 7px 0px 0px 0px;
+}
+.accounts_img {
+    width: 20px;
+    height: 20px;
+    margin: 12px 0px 0px 0px;
+    border-radius: 20%;
+}
+.accounts a {
+    vertical-align: 30%;
+}
+.button_holder {
+    text-align: center;
+    padding: 4px 0px 0px 0px;
+}
+.green_button {
+    background-color: #448266;
+    display: inline-block;
+    padding: 5px;
+    height: 27px;
+    border-radius: 10px;
+    border: black;
+    color: white;
+    box-shadow: 1px 4px 11px 1px #888888;
+    font-size: 13px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.green_button:active {
+    display: none;
+}
